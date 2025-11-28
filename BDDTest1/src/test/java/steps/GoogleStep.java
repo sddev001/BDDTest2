@@ -20,6 +20,7 @@ public class GoogleStep {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.google.com");
+		System.out.println("hello");
 	}
 	@When("user validate Google title")
 	public void user_validate_google_title() {
